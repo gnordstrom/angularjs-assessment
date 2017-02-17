@@ -5,7 +5,7 @@ angular.module('assessment').service('shopService', function($http) {
             method: 'GET',
             url: 'http://practiceapi.devmounta.in/products'
         }).then(function(response) {
-            console.log(response.data)
+            // console.log(response.data)
             return response.data;
         })
     }
@@ -15,7 +15,7 @@ angular.module('assessment').service('shopService', function($http) {
             method: 'GET',
             url: 'http://practiceapi.devmounta.in/products/' + id
         }).then(function(response) {
-            console.log(response.data);
+            // console.log(response.data);
             return response.data;
         })
     }
